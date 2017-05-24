@@ -16,8 +16,7 @@ use app\modules\admin\models\Image;
 
    <?php if(count($value) == count($prod->catOption)):?>
 
-          <div class="col-sm-6 col-md-6 col-lg-3">
-
+ <div class="col-sm-6 col-md-6 col-lg-3" style="padding:0; border-radius: 5px;">
             <div class="product">
 
                 <a href="<?= \yii\helpers\Url::to(['site/single-product', 'id' => $prod->id, 'name' => $prod->name]) ?>">
@@ -64,7 +63,7 @@ use app\modules\admin\models\Image;
 
          <?php else:?>
 
-             <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="col-sm-6 col-md-6 col-lg-3" style="padding:0; border-radius: 5px;">
 
             <div class="product">
 
