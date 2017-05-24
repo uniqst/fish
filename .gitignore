@@ -6,3 +6,17 @@ config/db.php
 .idea/workspace.xml
 
 .idea/workspace.xml
+
+config/web.php
+
+.idea/copyright/profiles_settings.xml
+
+.idea/fish.iml
+
+.idea/misc.xml
+
+.idea/modules.xml
+
+.idea/vcs.xml
+
+config/web.php
