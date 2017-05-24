@@ -1,0 +1,103 @@
+@media only screen and (max-width : 1400px) {
+    nav.navbar-default {
+        max-width: 95%;
+    }
+
+    .container-fluid {
+        max-width: 95%;
+    }
+
+}
+
+    @media only screen and (max-width : 1200px) {
+    nav.navbar-default{
+        max-width: 90%;
+    }
+    .container-fluid{
+        max-width: 90%;
+    }
+
+
+
+
+    .row.products > div{
+        padding-left: 14px;
+        padding-right: 14px;
+
+    }
+
+    .row.products > div:first-child{
+        padding-left: 14px;
+        padding-right:14px;
+
+    }
+
+    .row.products > div:last-child{
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    nav.navbar-default{
+        max-width: 95%;
+    }
+
+    .container-fluid{
+        max-width: 95%;
+    }
+
+    .col-md-3.categories{
+        max-width:100%;
+    }
+
+    .col-md-9.prod-window{
+        width: 100%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    nav.navbar-default{
+        max-width: 100%;
+    }
+
+    nav.navbar-default > div{
+        border-radius: 0px;
+    }
+
+    .main-nav .nav > li > a{
+        border-right: 0;
+    }
+
+    .navbar-form{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .container-fluid{
+        max-width: 98%;
+    }
+
+    .product .a>img{
+        width: 100%;
+        max-height: 100px;
+        background: red;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 380px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
