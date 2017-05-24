@@ -84,39 +84,7 @@ $q = Yii::$app->request->get('q');
 
 
 
-    <div class="header">
-
-        <div class="container-fluid padding-lrg header-desc">
-
-            <div class="pull-left">
-
-                <a href="#"><img style="height: 50px;" class="img img-responsive" src="<?= Url::to(['web/upload/logo.jpg']) ?>"></a>
-
-            </div>
-
-
-
-            <div style="text-align: center; position: relative"><span class="glyphicon glyphicon-earphone" style="margin-right: 3px;font-size: 16px"></span>+38
-
-                067 555 10 50
-
-            </div>
-
-            <div style="text-align: center; position: relative"><span class="glyphicon glyphicon-earphone"
-
-                                                                      style="margin-right: 3px;font-size: 16px"></span>+38
-
-                067 555 10 50
-
-            </div>
-
-
-
-        </div>
-
-
-
-    </div>
+    
 
 
 
@@ -125,7 +93,8 @@ $q = Yii::$app->request->get('q');
 
 
     NavBar::begin([
-
+        'brandLabel' => '<img src="http://swflfh.codeanddev.com/wp-content/uploads/2016/04/Fish_icon.svg_.png" style="float: left; margin-right: 12px;margin-top:-20px;width:60px">',
+        'brandUrl' => Yii::$app->homeUrl,
         'options' => [
 
 

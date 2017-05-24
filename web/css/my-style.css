@@ -46,7 +46,7 @@ nav.navbar-default{
 
 nav.navbar-default > div{
     background-color: #383838;
-    border-radius: 6px;
+    border-radius: 0px;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -740,4 +740,9 @@ div.panel {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+.col-md-3 .panel{
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
