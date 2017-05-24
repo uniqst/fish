@@ -1,9 +1,7 @@
 <?php
 
 
-
 $params = require(__DIR__ . '/params.php');
-
 
 
 $config = [
@@ -18,7 +16,7 @@ $config = [
 
     'language' => 'ru-RU',
 
-        'modules' => [
+    'modules' => [
 
         'admin' => [
 
@@ -30,7 +28,7 @@ $config = [
 
         ],
 
-          'yii2images' => [
+        'yii2images' => [
 
             'class' => 'rico\yii2images\Module',
 
@@ -52,23 +50,23 @@ $config = [
 
     'components' => [
 
-    		  'view' => [
+        'view' => [
 
-     		 	   'theme' => [
+            'theme' => [
 
-             'pathMap' => [
+                'pathMap' => [
 
-                '@app/views' => '@app/modules/admin/views/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
+                    '@app/views' => '@app/modules/admin/views/yii2-adminlte-asset/example-views/yiisoft/yii2-app'
 
-            	 ],
+                ],
 
-        	 ],
+            ],
 
-    	],
+        ],
 
         'request' => [
 
-        'baseUrl'=> '',
+            'baseUrl' => '',
 
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
 
@@ -110,7 +108,6 @@ $config = [
 
         ],
 
-        
 
         'log' => [
 
@@ -132,7 +129,6 @@ $config = [
 
         'db' => require(__DIR__ . '/db.php'),
 
-        
 
         'urlManager' => [
 
@@ -170,14 +166,12 @@ $config = [
 
         ],
 
-        
 
     ],
 
     'params' => $params,
 
 ];
-
 
 
 if (YII_ENV_DEV) {
@@ -195,7 +189,6 @@ if (YII_ENV_DEV) {
     ];
 
 
-
     $config['bootstrap'][] = 'gii';
 
     $config['modules']['gii'] = [
@@ -205,7 +198,6 @@ if (YII_ENV_DEV) {
     ];
 
 }
-
 
 
 return $config;
