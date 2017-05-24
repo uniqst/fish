@@ -178,7 +178,7 @@ $q = Yii::$app->request->get('q');
 
 
 
-<div class="footer  fadeIn animated " style=" -webkit-animation-duration: 12s; /* Safari 4.0 - 8.0 */
+<div class="footer  " style=" -webkit-animation-duration: 12s; /* Safari 4.0 - 8.0 */
 
     animation-duration: 2s;">
 
@@ -268,7 +268,7 @@ $q = Yii::$app->request->get('q');
 
         <div class="col-sm-5">
 
-            <h4>My-Dream</h4>
+            <h4>ABC fishing</h4>
 
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at commodi ea eum fugit inventore
 

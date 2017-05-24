@@ -133,9 +133,9 @@ a.desc:after {
 /*** Footer ***/
 .footer {
     position: relative;
-    background: #FCFCFC;
+    background: lightgreen;
     border-top: 1px solid #CECECE;
-    margin:20px auto;
+    margin-top:20px auto;
 }
 .section {
     clear: both;
