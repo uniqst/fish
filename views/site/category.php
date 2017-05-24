@@ -23,11 +23,8 @@ use yii\db\ActiveQuery;
 
 
 $this->title = $title->name;
-
+$this->params['breadcrumbs'][] = ['label' => $categ->category->name, 'url' => ['site/category' , 'id' => $categ->category->id]];
 $this->params['breadcrumbs'][] = $this->title;
-
-
-
 ?>
 
 <div class="container-fluid">
@@ -68,7 +65,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         <?php if(!empty($c->option)):?>
                         <h4 class='list-group-item-heading'><?= $c->name ?></h4>
 
-                        <div style="margin-bottom: 20px">
+                        <div style="margin-bottom: 20px;border: 1px solid grey; border-radius: 5px;">
 
                         <?php foreach($c->allOption as $option ): ?>
 
@@ -86,9 +83,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
                             ?>
 
-                            <p class="list-group-item-text"> <input type="checkbox" <?=$checked?> onclick="this.form.submit();"
+                            <p class="list-group-item-text" style="padding: 5px;"> <input type="checkbox" <?=$checked?> onclick="this.form.submit();"
 
-                                                                    name='value[<?= (string)$option->value ?>]' id="check<?= $option->value ?>">
+                              name='value[<?= (string)$option->value ?>]' id="check<?= $option->value ?>">
 
                                 <label for="check<?= $option->value ?>"><?= $option->value ?></label></p>
 

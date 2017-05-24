@@ -155,9 +155,9 @@ nav.navbar-default > div{
 
 .categories h3 {
     font-size: 19px;
-    color: #FFF;
+    color: black;
     padding: 10px;
-    background: #B81D22;
+    background: lightgreen;
     text-transform: uppercase;
     font-weight: 400;
     margin-top: 0;
@@ -703,7 +703,6 @@ p.third.animated{
     text-transform: uppercase;
     font-weight: 400;
     margin-top: 0;
-    border-bottom: 2px solid red;
 }
 
 button.accordion {

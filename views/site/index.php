@@ -151,34 +151,7 @@ $this->title = 'Итернет-магазин техники';
 
         <div class="col-md-3 categories">
 
-            <div class="mobile-menu-area hidden-sm hidden-xs">
-                <div class="">
-
-                    <div class="mobile-menu">
-                        <nav id="dropdown">
-                            <ul>
-
-
-                                <?php foreach ($category as $cat): ?>
-                                    <? $categ = Category::find()->where(['parent_id' => $cat['id']])->all(); ?>
-                                    <button class="accordion" ><?= $cat['name'] ?></button>
-                                    <div class="panel">
-                                        <ul>
-                                            <?php foreach ($categ as $c): ?>
-                                                <li>
-                                                    <a href="<?= Url::to(['site/category', 'id' => $c['id']]) ?>"><?= $c['name']; ?></a>
-                                                </li>
-                                            <?php endforeach; ?>
-                                        </ul>
-                                    </div>
-                                <?php endforeach; ?>
-
-                            </ul>
-                        </nav>
-                    </div>
-
-                </div>
-            </div>
+    <?php echo $this->render('_category', compact('category'))?>
 
 
 

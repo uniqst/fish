@@ -33,7 +33,7 @@ use app\modules\admin\models\CatOption;
 
 
 $this->title = $title;
-
+$this->params['breadcrumbs'][] = ['label' => $prod->category->name, 'url' => ['site/category' , 'id' => $prod->category->id]];
 $this->params['breadcrumbs'][] = $this->title;
 
 ?>
