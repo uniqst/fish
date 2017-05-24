@@ -208,7 +208,7 @@ $this->params['breadcrumbs'];
 
 
                 <div  style="margin-top: 30px;margin-bottom: 60px">
-                    <a class="add-to-cart btn btn-danger" data-id="<?= $prod->id ?>" href="#">Добавить в корзину</a>
+                    <a class="add-to-cart btn btn-success" data-id="<?= $prod->id ?>" href="#">Добавить в корзину</a>
                 </div>
                 <?php $pr = Product::find()->where(['id' => Yii::$app->request->get('id')])->one()?>
                 <p>Код товара: <?=$pr->key?></p>
@@ -265,31 +265,14 @@ $this->params['breadcrumbs'];
 
                 <div class="product-tabs" >
 
-                    <ul class="nav nav-tabs " role="tablist" >
-
-                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Описание</a></li>
-
-                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Характеристики</a></li>
-
-                        <!--                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>-->
-
-                        <!--                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>-->
-
-                    </ul>
-
-
-
-                    <!-- Tab panes -->
+                
 
                     <div class="tab-content" >
 
-                        <div role="tabpanel" class="tab-pane active" id="home">
 
                             <?=$prod->description ?>
 
-                        </div>
 
-                        <div role="tabpanel" class="tab-pane" id="profile">
 
                             <table class="table">
 
@@ -319,7 +302,6 @@ $this->params['breadcrumbs'];
 
                     </div>
 
-                </div>
 
 
 

@@ -41,7 +41,7 @@ $this->title = 'Итернет-магазин техники';
 
     <div>
 
-        <div id="slider" class="carousel slide main-carousel hidden-xs" data-ride="carousel">
+<!--         <div id="slider" class="carousel slide main-carousel hidden-xs" data-ride="carousel">
 
             <ol class="carousel-indicators">
 
@@ -139,7 +139,7 @@ $this->title = 'Итернет-магазин техники';
 
 
 
-        </div>
+        </div> -->
 
 
 

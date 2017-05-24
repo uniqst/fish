@@ -235,12 +235,16 @@ nav.navbar-default > div{
 
 
 /**/
+body{
+/*    background: url('http://megaribolov.ru/images/siteimage/statiy/raznoe/istoriya_razvitiya_ribolovstva/istoriya_razvitiya_ribolovstva.jpg');
+*/}
 
 .content_top{
     padding: 15px 20px;
     border: 1px solid #EBE8E8;
     border-radius: 3px;
-
+    background: lightgreen;
+    border-radius: 10px;
 }
 
 .heading {
